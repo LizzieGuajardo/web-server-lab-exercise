@@ -54,9 +54,10 @@ app.get('*',function(req,res){
 })
 
 //En el puerto 3000
-app.listen(3000,function(){
+app.listen(port,function(){
 	console.log('up and running')
 })
+
 
 //npm install express 
 //Para que cuando actualices se corre automaticamente
